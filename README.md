@@ -1,1 +1,1 @@
-# March21_SpringSimpleTest
+Simple Spring app to get amount and pass it to the payment gateway
