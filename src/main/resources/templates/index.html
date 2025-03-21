@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Payment Form</title>
+</head>
+<body>
+<h1>Enter Amount in Euros</h1>
+<form action="/submit" method="post">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

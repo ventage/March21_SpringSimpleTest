@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var redirectUrl = "[[${redirectUrl}]]";
+            if (redirectUrl) {
+                window.location.href = redirectUrl;
+            } else {
+                alert("Redirection URL is not available. Please try again later.");
+            }
+        };
+    </script>
+</head>
+<body>
+<p>Redirecting to payment gateway</p>
+</body>
+</html>
